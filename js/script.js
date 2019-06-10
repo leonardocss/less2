@@ -1,28 +1,23 @@
-num = 48;
-if (num < 49) {
-	console.log('неверно')
-} else if (num > 100) {
-	console.log('неверно')
-} else {
-	console.log("Верно!")
+//var week = ['ponedelnik', 'vtornik', 'sreda', 'chetverg', 'pyatnica', 'subbota', 'voskresene'];
+//alert(week[0] + "\n" + week[1] + "\n" + week[2] + "\n" + week[3] + "\n" + week[4] + "\n" + week[5]  + "\n" + week[6]);
+/*
+var arr = [1231232,134354,768768,34534,13453,345455,23434];
+for (var i = 0; i < arr.length; i++) {
+	let temp = arr[i];
+	temp = String(temp);
+	if (temp[0] == 7 || temp[0] == 3) {
+		console.log(arr[i]);
+	} else {
+		console.log('NOT THIS');
+	}
 }
-
-(num == 50)? console.log('Верно!') : console.log('Неверно!');
-
-switch (num) {
-	case 49:
-		console.log('low');
-		break;
-	case 100:
-		console.log('big');
-		break;
-	case 80:
-		console.log('not not');
-		break;
-	case 50:
-		console.log('YEAH!');
-		break;
-	default:
-		console.log('pnh pituh')
-		break;
+*/
+var arr = [1231232,134354,768768,34534,13453,345455,23434];
+for (var i = 0; i < arr.length; i++) {
+	arr[i] = String(arr[i]);
+	if (arr[i][0] == 7 || arr[i][0] == 3) {
+		console.log(arr[i]);
+	} else {
+		console.log('NOT THIS');
+	}
 }
